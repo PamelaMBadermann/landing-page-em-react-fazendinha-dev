@@ -1,10 +1,17 @@
 import React from 'react';
-import { StyleMenuTab } from './StyleMenuTab'
+import { MenuTabStyles } from './style';
 
-export default function MenuTab() {
+function MenuTab(props) {
     return (
-        <StyleMenuTab>
-            
-        </StyleMenuTab>
+        <MenuTabStyles>
+            <h2>{props.agencyName}</h2>
+            <div>About</div>
+            <div>Tutors</div>
+            <div>Program</div>
+            <div>Location</div>
+            <div>Our Agency</div>
+        </MenuTabStyles>
     );
 }
+
+export { MenuTab };

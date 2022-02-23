@@ -1,11 +1,11 @@
 import React from "react";
-import { Sobre } from "../Sobre/Sobre";
 import { MainContentStyles } from "./style";
-import { Conteudo } from "../Conteudo/Conteudo";
+import { MenuTab } from "../MenuTab/MenuTab";
 
 export default function MainContent() {
     return (
         <MainContentStyles>
+            <MenuTab agencyName="Fazendinha Dev" />
             <h1>FazendinhaDev</h1>
             <Sobre></Sobre>
             <Conteudo />
