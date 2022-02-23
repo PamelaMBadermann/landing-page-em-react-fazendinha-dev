@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const MenuTabStyles = styled.div`
     height: 100px;
-    background: #247ba0;
+    background: #105ba8;
     display: flex;
     justify-content: space-around;
     align-items: center;
