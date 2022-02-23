@@ -1,12 +1,12 @@
-import React from 'react';
-import MainContent from '../../components/MainContent/MainContent';
+import React from "react";
+import MainContent from "../../components/MainContent/MainContent";
 
-function Home () {
+function Home() {
     return (
         <React.Fragment>
             <MainContent></MainContent>
         </React.Fragment>
-    )
+    );
 }
 
 export { Home };
