@@ -4,6 +4,7 @@ import { MenuTab } from "../MenuTab/MenuTab";
 import { Header } from "../Header/Header";
 import { Sobre } from "../Sobre/Sobre";
 import { Conteudo } from "../Conteudo/Conteudo";
+import { Footer } from "../Footer/Footer";
 
 export default function MainContent() {
     return (
@@ -12,6 +13,7 @@ export default function MainContent() {
             <Header />
             <Sobre></Sobre>
             <Conteudo />
+            <Footer />
         </MainContentStyles>
     );
 }
