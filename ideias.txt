@@ -2,11 +2,18 @@ Menu:
     Menu        (icone dum milho)FazendinhaDev          Sobre        Conteúdo        Professores    Inscrever-se
 
 Sobre:
-    Data de inicio:
-    Horário flexivel
+    Data de inicio
+    Carga horaria
     35 vagas
-    50/mes pila ta valendo.
-    Profissão em alta no mercado!
+    500/mes pila ta valendo.
+
+    --- segunda linha ---
+    CardCurto: 30% CardDesc:70%
+    CardCurto: 1000h de teoria e pratica em data Science
+    CardDesc:
+        Titulo: Sobre o curso
+        Texto: bla bla bla
+               Profissão em alta no mercado!
 
 
 
