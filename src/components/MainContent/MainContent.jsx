@@ -6,7 +6,8 @@ import { Sobre } from "../Sobre/Sobre";
 import { Conteudo } from "../Conteudo/Conteudo";
 import { Footer } from "../Footer/Footer";
 import { Registration } from "../Registration/Registration";
-import { DetalheConteudo } from '../DetalheConteudo/DetalheConteudo'
+import { DetalheConteudo } from '../DetalheConteudo/DetalheConteudo';
+import {Professores} from '../Professores/Professores';
 
 export default function MainContent() {
     return (
@@ -16,6 +17,7 @@ export default function MainContent() {
             <Sobre></Sobre>
             <Conteudo />
             <DetalheConteudo/>
+            <Professores />
             <Registration />
             <Footer />
         </MainContentStyles>
