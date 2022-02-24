@@ -29,6 +29,11 @@ const MenuStyles = styled.div`
     h2 {
         margin-left: 20px;
     }
+
+    svg {
+        font-size: 40px;
+        color: white;
+    }
 `;
 
 export { MenuTabStyles, MenuStyles };

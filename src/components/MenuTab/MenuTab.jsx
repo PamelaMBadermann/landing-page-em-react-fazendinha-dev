@@ -6,7 +6,7 @@ function MenuTab(props) {
     return (
         <MenuTabStyles>
             <MenuStyles>
-                <GiCorn fontSize="40"/>
+                <GiCorn/>
                 <h2>{props.agencyName}</h2>
             </MenuStyles>
             <MenuStyles>

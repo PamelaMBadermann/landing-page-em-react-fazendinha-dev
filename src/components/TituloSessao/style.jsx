@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { css } from "styled-components";
 
 const TituloSessaoStyle = styled.div`
     display: flex flex;

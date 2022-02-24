@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import { TituloSessaoStyle } from "../TituloSessao/style";
 
 export function TituloSessao(props) {
