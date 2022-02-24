@@ -3,9 +3,8 @@ import styled from "styled-components";
 const SobreBlocoCardsStyle = styled.div`
     display: flex;
     flex-direction: row;
-    text-align: center;
     margin-top: 10vh;
-    width: 100vw;
+    width: 100%;
     height: 40vh;
     justify-content: center;
     border-top-left-radius: 15px;

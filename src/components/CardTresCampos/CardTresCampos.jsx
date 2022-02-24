@@ -11,6 +11,7 @@ export function CardTresCampos(props) {
             focusDois={props.focusDois}
             focusTres={props.focusTres}
             BGDestaque={props.BGDestaque}
+            rounded={props.rounded}
         >
             <TextoCardTresCamposStyle>
                 <h2>{props.campoUm}</h2>
