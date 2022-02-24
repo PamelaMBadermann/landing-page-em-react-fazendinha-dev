@@ -5,7 +5,8 @@ const SobreBlocoDescricaoStyle = styled.div`
     flex-direction: row;
     justify-content: center;
     margin-top: 5vh;
-    width: 100%;
+    width: 70%;
+    margin-left: 15%;
 `;
 
 export { SobreBlocoDescricaoStyle };
