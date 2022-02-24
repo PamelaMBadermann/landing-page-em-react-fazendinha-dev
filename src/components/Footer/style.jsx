@@ -26,7 +26,6 @@ const FooterIconsStyle = styled.div`
     color: #2f2f2f;
 
     svg {
-        color: #105ba8;
         margin: 20px;
     }
 `;
